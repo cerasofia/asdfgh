@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(#ffcbc4, #ffa7a6);
+}
+
+nav .logo p {
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+ nav li a:hover {
+    color: blue;
+    transition: all 0.4s ease 0s;
+ }
+
+ .content img {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+ }
+
+ 
+
+
+
+
+
+
+ header #design {
+    background-color: #ffcbc4;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+ }
+
+ ul {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+}
+
+li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover {
+    color: blue;
+    transition: all 0.4s ease 0s;
+ }
+
+ .bright {
+    text-align: center;
+    text-transform: uppercase;
+    color: #9aa2a5;
+    font-size: 30px;
+ }
+
+.word {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#sentence {
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: justify;
+    margin: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.picture {
+    display: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img {
+    height: 400px;
+    width: 700px;
+    border-radius: 10px;
+}
+
+.one {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.two {
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    margin: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.name {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ body .videos {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+ }
+
+ header {
+    background-color: #ffd2cf;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+ }
+
+ header li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+ main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+ video{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+ }
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+ .section {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+ }
+ 
+ .container {
+    width: 80%;
+    display: block;
+    margin:auto;
+    padding-top: 100px;
+ }
+
+ .content-section {
+    float: left;
+    width: 55%;
+ }
+
+ .image-section{
+    float: right;
+    width: 40%;
+ }
+
+ .image-section img {
+    width: 100%;
+    height: auto;
+ }
+
+ .content-section .title {
+    text-transform: uppercase;
+    font-size: 28px;
+ }
+
+ .content-section .content h3 {
+    margin-top: 20px;
+    color: #5d5d5d;
+    font-size: 21px;
+ }
+
+ .content-section .content p {
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+ }
+
+ .content-section .content .button {
+    margin-top: 30px;
+ }
+
+ .content-section .content .button a {
+    background-color: #3d3d3d;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+ }  
+
+ .content-section .content .button a:hover {
+    background-color: #a52a2a;
+    color: #fff;
+ }
+
+ .content-section .social {
+    margin: 40px 40px;
+ }
+
+ .content-section .social i {
+    color: #a52a2a;
+    font-size: 30px;
+    padding: 0px 10px;
+ }
+
+ .content-section .social i:hover {
+    color: #3d3d3d;
+ }
+
+ 
